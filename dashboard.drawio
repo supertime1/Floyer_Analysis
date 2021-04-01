@@ -1,1 +1,65 @@
-<mxfile host="app.diagrams.net" modified="2021-04-01T17:56:04.307Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" version="14.4.0" etag="v9PDobCgmXESbPFy9qf-" type="github"><diagram id="4QvXAcQMYoYj-EKE6cNT">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-04-01T18:45:07.001Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="u2L0DVuZLxCH3_y-qlW_" version="14.4.0" type="github">
+  <diagram id="4QvXAcQMYoYj-EKE6cNT" name="Page-1">
+    <mxGraphModel dx="1006" dy="685" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="zGIEotf5qHY922Rz5FeH-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="zGIEotf5qHY922Rz5FeH-1" target="zGIEotf5qHY922Rz5FeH-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zGIEotf5qHY922Rz5FeH-1" value="MongoDB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="80" y="450" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zGIEotf5qHY922Rz5FeH-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="zGIEotf5qHY922Rz5FeH-2" target="zGIEotf5qHY922Rz5FeH-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zGIEotf5qHY922Rz5FeH-2" value="IBM Clinical" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="910" y="430" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zGIEotf5qHY922Rz5FeH-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="zGIEotf5qHY922Rz5FeH-3" target="zGIEotf5qHY922Rz5FeH-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zGIEotf5qHY922Rz5FeH-3" value="MS SQL" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="910" y="570" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zGIEotf5qHY922Rz5FeH-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="zGIEotf5qHY922Rz5FeH-4" target="zGIEotf5qHY922Rz5FeH-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zGIEotf5qHY922Rz5FeH-4" value="&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;/blockquote&gt;&lt;b&gt;Key&lt;/b&gt;&lt;span&gt;: Subject ID&lt;/span&gt;&lt;br&gt;&lt;b&gt;Value&lt;/b&gt;: sensor HW info; subject demographs etc.&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=8;" vertex="1" parent="1">
+          <mxGeometry x="870" y="290" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zGIEotf5qHY922Rz5FeH-7" value="&lt;b&gt;Static Dashboard for Management&lt;/b&gt;&lt;br&gt;(Ongoing/Finished Study Analysis)&lt;br&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left&quot;&gt;Subject&#39;s stats (gender, race, left-right ear, hearing loss, BMI...)&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;MAPE&amp;nbsp;&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;Data availability&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;Other stats per request;&lt;/li&gt;&lt;/ul&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="250" y="280" width="250" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="zGIEotf5qHY922Rz5FeH-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="zGIEotf5qHY922Rz5FeH-8" target="zGIEotf5qHY922Rz5FeH-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zGIEotf5qHY922Rz5FeH-8" value="&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;/blockquote&gt;&lt;b&gt;Key&lt;/b&gt;&lt;span&gt;: Subject ID&lt;/span&gt;&lt;br&gt;&lt;b&gt;Value&lt;/b&gt;: sensor raw data with activity labels" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=8;" vertex="1" parent="1">
+          <mxGeometry x="40" y="320" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zGIEotf5qHY922Rz5FeH-14" value="Manual Upload to Confluence" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zGIEotf5qHY922Rz5FeH-10" target="zGIEotf5qHY922Rz5FeH-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zGIEotf5qHY922Rz5FeH-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zGIEotf5qHY922Rz5FeH-10" target="zGIEotf5qHY922Rz5FeH-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="550" y="520" />
+              <mxPoint x="710" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zGIEotf5qHY922Rz5FeH-20" value="GIthub Hub Commit" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zGIEotf5qHY922Rz5FeH-17">
+          <mxGeometry x="0.1079" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zGIEotf5qHY922Rz5FeH-10" value="&lt;b&gt;Python Script &lt;br&gt;&lt;/b&gt;&lt;br&gt;Access data from BOTH MongoDB and MS SQL by using &lt;b&gt;Subject ID&lt;/b&gt; as &lt;b&gt;Key &lt;/b&gt;(or Test Date/Device Type as Paired-Key)" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="444" y="590" width="211.25" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="zGIEotf5qHY922Rz5FeH-16" value="&lt;b&gt;Dynamic Dashboard for Developer&lt;/b&gt;&lt;br&gt;(Ongoing/Finished Study Analysis)&lt;br&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left&quot;&gt;Provide python script that enables developer to look at the data in a flexible way, possibly with a local-host server&lt;/li&gt;&lt;/ul&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="580" y="280" width="250" height="170" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
